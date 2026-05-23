@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VeggieDoc — Gizlilik Politikası</title>
+<style>
+  :root { --green: #2E7D32; --green-soft: #e8f3e9; --ink: #1f2421; --muted: #5b665e; --line: #e2e8e3; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink); background: #fbfdfb; line-height: 1.65; margin: 0; padding: 0;
+    -webkit-text-size-adjust: 100%; font-size: 17px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { border-bottom: 3px solid var(--green); padding-bottom: 18px; margin-bottom: 28px; }
+  .lang { display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--green); background: var(--green-soft); padding: 4px 10px; border-radius: 999px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 14px 0 6px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; color: var(--green); }
+  h3 { font-size: 17px; margin: 22px 0 6px; }
+  .updated { color: var(--muted); font-size: 14px; margin: 4px 0 0; }
+  p, li { color: var(--ink); }
+  a { color: var(--green); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .callout { background: var(--green-soft); border-left: 4px solid var(--green); border-radius: 8px; padding: 14px 16px; margin: 20px 0; }
+  .callout strong { color: var(--green); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--green-soft); color: var(--ink); font-weight: 600; }
+  .contact { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin-top: 14px; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  code { background: #eef3ee; padding: 1px 6px; border-radius: 5px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="lang">Türkçe</span>
+  <h1>VeggieDoc — Gizlilik Politikası</h1>
+  <p class="updated">Son güncelleme: 2026-05-23</p>
+</header>
+
+<p>Bu Gizlilik Politikası, iOS ve Android mobil uygulamamızı kullandığınızda <strong>VeggieDoc</strong>'un ("Uygulama", "biz") kişisel verilerinizi nasıl topladığını, kullandığını, paylaştığını ve koruduğunu açıklar. Hizmeti sunmak için gereken asgari kişisel veriyi toplamayı taahhüt ediyoruz.</p>
+
+<h2>1. Biz Kimiz (Veri Sorumlusu)</h2>
+<p>Kişisel verilerinizden sorumlu veri sorumlusu:</p>
+<div class="contact">
+  <strong>CS Analytics LLC</strong><br>
+  Türkiye'den yürütülen, Amerika Birleşik Devletleri'nde kurulu bir limited şirketi.<br>
+  İletişim: <a href="mailto:veggiedoc@csanalytics.app">veggiedoc@csanalytics.app</a>
+</div>
+<p>VeggieDoc, çektiğiniz fotoğraflardan yapay zekâ kullanarak bitki ve yaprak hastalıklarını teşhis eden, ardından organik ve kimyasal tedavi planları ile bakım rehberleri sunan bir mobil uygulamadır. Ev ve hobi bahçıvanlarına yöneliktir ve <strong>çocuklara yönelik değildir</strong>.</p>
+
+<h2>2. Hangi Verileri Topluyoruz</h2>
+<ul>
+  <li><strong>Hesap e-postası</strong> — bir hesap oluşturduğunuzda.</li>
+  <li><strong>Kimlik doğrulama sağlayıcı kimliği</strong> — Apple ile Giriş veya Google ile giriş seçeneklerini kullandığınızda bu sağlayıcılardan gelen bir tanımlayıcı.</li>
+  <li><strong>Anonim misafir oturumları</strong> — Uygulamayı hesap oluşturmadan kullanırsanız, Uygulamanın çalışabilmesi için anonim bir oturum tanımlayıcısı kullanırız.</li>
+  <li><strong>Girdiğiniz bitki kayıtları</strong> — kaydetmeyi seçtiğiniz bitki adları, notlar ve bakım ilerlemesi.</li>
+  <li><strong>Teşhis için gönderdiğiniz fotoğraflar</strong> — bkz. Bölüm 3.</li>
+  <li><strong>Abonelik durumu</strong> — aktif bir deneme veya aboneliğinizin olup olmadığı (uygulama mağazaları ve RevenueCat üzerinden yönetilir; ödeme kartı verilerinizi almayız).</li>
+</ul>
+<p>Varsayılan olarak asgari kişisel veri ("KVK") ilkesiyle tasarlıyoruz ve ihtiyacımızdan fazlasını istemiyoruz.</p>
+
+<h2>3. Fotoğraflar Nasıl İşlenir — Üçüncü Taraf Yapay Zekâ Açıklaması</h2>
+<div class="callout">
+  <p><strong>Önemli:</strong> Bir teşhis talep ettiğinizde, gönderdiğiniz fotoğraf analiz için <strong>üçüncü taraf bir yapay zekâ sağlayıcısı olan Plant.id</strong>'ye (<strong>Kindwise s.r.o.</strong> tarafından işletilir) iletilir. Bu, fotoğrafınızın <strong>sistemlerimizden ayrıldığı</strong> ve bitkiyi ve olası hastalığı tanımlamak için bu sağlayıcı tarafından işlendiği anlamına gelir.</p>
+</div>
+<ul>
+  <li><strong>Gönderilen nedir:</strong> teşhis için göndermeyi seçtiğiniz görsel.</li>
+  <li><strong>Neden:</strong> teşhisinizi ve tedavi önerilerinizi üreten yapay zekâ analizini gerçekleştirmek için.</li>
+  <li><strong>Model eğitimi:</strong> kendimiz <strong>hiçbir</strong> yapay zekâ modeli eğitmiyoruz ve fotoğraflarınız modellerimizi eğitmek için <strong>kullanılmaz</strong>.</li>
+  <li><strong>Saklama:</strong> teşhis fotoğrafları geçici olarak işlenir. Sonucunuzu göstermek için gerekenin ötesinde teşhis fotoğraflarını saklamayız. Plant.id'nin kendi işleme faaliyeti, Kindwise s.r.o.'nun gizlilik koşullarına tabidir.</li>
+</ul>
+
+<h2>4. Verilerinizi Nasıl Kullanıyoruz</h2>
+<ul>
+  <li>Temel hizmeti sunmak için: bitkileri teşhis etmek, tedavi planlarını ve bakım rehberlerini göstermek.</li>
+  <li>Hesabınızı ve anonim oturumlarınızı oluşturmak ve yönetmek için.</li>
+  <li>Girdiğiniz bitki kayıtlarını kaydetmek ve göstermek için.</li>
+  <li>Aboneliğinizi, ücretsiz denemenizi ve erişim haklarınızı yönetmek için.</li>
+  <li>Güvenliği sağlamak, kötüye kullanımı önlemek ve hizmeti iyileştirmek için.</li>
+  <li>Destek taleplerinize yanıt vermek için.</li>
+</ul>
+
+<h2>5. İşlemenin Hukuki Dayanakları (GDPR)</h2>
+<table>
+  <tr><th>Amaç</th><th>Hukuki dayanak</th></tr>
+  <tr><td>Fotoğrafınızı teşhis için işleme</td><td><strong>Açık rıza</strong> (her fotoğrafı göndermeyi siz seçersiniz)</td></tr>
+  <tr><td>Uygulamanın, hesabın ve aboneliğin sunulması</td><td><strong>Sözleşmenin ifası</strong></td></tr>
+  <tr><td>Güvenlik, kötüye kullanımı önleme, hizmet iyileştirme</td><td><strong>Meşru menfaat</strong></td></tr>
+</table>
+<p>Rızaya dayandığımız durumlarda, fotoğraf göndermeyerek ve/veya hesabınızı silerek rızanızı dilediğiniz zaman geri çekebilirsiniz.</p>
+
+<h2>6. Paylaşım ve Veri İşleyenler</h2>
+<p>Kişisel verilerinizi satmayız. Verileri yalnızca Uygulamayı işletmemize yardımcı olan hizmet sağlayıcılarla ("veri işleyenler") paylaşırız:</p>
+<table>
+  <tr><th>Sağlayıcı</th><th>Amaç</th></tr>
+  <tr><td><strong>Plant.id</strong> (Kindwise s.r.o.)</td><td>Teşhis için gönderdiğiniz fotoğrafların yapay zekâ analizi</td></tr>
+  <tr><td><strong>Supabase</strong></td><td>Veritabanı, kimlik doğrulama ve depolama (veriler Asya-Pasifik bölgesinde barındırılır)</td></tr>
+  <tr><td><strong>RevenueCat</strong></td><td>Abonelik yönetimi</td></tr>
+  <tr><td><strong>Apple App Store / Google Play</strong></td><td>Ödeme işleme — kart verilerinizi asla görmeyiz</td></tr>
+</table>
+
+<h2>7. Uluslararası Veri Aktarımları</h2>
+<p>Türkiye'den faaliyet gösteriyoruz, şirketimiz Amerika Birleşik Devletleri'nde kuruludur ve veritabanımız, kimlik doğrulamamız ve depolamamız Supabase tarafından <strong>Asya-Pasifik bölgesinde</strong> barındırılır. Plant.id (Kindwise s.r.o.) Avrupa Birliği'nde yerleşiktir. Bunun sonucunda verileriniz kendi ülkeniz dışındaki ülkelere aktarılabilir ve buralarda işlenebilir. Gerekli olduğunda bu aktarımlar için uygun güvenceler (örneğin standart sözleşme hükümleri) uygularız.</p>
+
+<h2>8. Veri Saklama</h2>
+<ul>
+  <li><strong>Hesap verileri</strong> hesabınız aktif olduğu sürece saklanır.</li>
+  <li>Hesabınızı sildiğinizde hesap verileriniz silinir.</li>
+  <li><strong>Teşhis fotoğrafları</strong> geçici olarak işlenir ve sonucu size göstermek için gerekenin ötesinde saklanmaz.</li>
+</ul>
+
+<h2>9. Haklarınız</h2>
+<p>GDPR (AB) ve KVKK (Türkiye — 6698 sayılı Kişisel Verilerin Korunması Kanunu) uyarınca şu haklara sahipsiniz:</p>
+<ul>
+  <li>Hakkınızda tuttuğumuz kişisel verilere <strong>erişme</strong>;</li>
+  <li>Yanlış veya eksik verilerin <strong>düzeltilmesini</strong> isteme;</li>
+  <li>Verilerinizin <strong>silinmesini</strong> isteme ("unutulma hakkı");</li>
+  <li><strong>Veri taşınabilirliği</strong> — verilerinizi taşınabilir bir formatta alma;</li>
+  <li>Belirli işleme faaliyetlerine <strong>itiraz etme</strong>.</li>
+</ul>
+<h3>Haklarınızı nasıl kullanırsınız</h3>
+<ul>
+  <li>Uygulama içinden doğrudan <strong>hesabınızı silin</strong>: <code>Ayarlar → Hesabı sil</code>.</li>
+  <li>Uygulama içinden doğrudan <strong>verilerinizi dışa aktarın</strong>: <code>Ayarlar → Verileri dışa aktar</code>.</li>
+  <li>Ya da <a href="mailto:veggiedoc@csanalytics.app">veggiedoc@csanalytics.app</a> adresinden bize yazın, yardımcı olalım.</li>
+</ul>
+<p>Ayrıca yerel veri koruma kurumunuza (Türkiye'de Kişisel Verileri Koruma Kurulu) şikâyette bulunma hakkınız da vardır.</p>
+
+<h2>10. Çocuklar</h2>
+<p>VeggieDoc, ev ve hobi bahçıvanlarına yöneliktir ve <strong>çocuklara yönelik değildir</strong>. Bilerek çocuklardan kişisel veri toplamayız. Bir çocuğun bize veri sağladığını düşünüyorsanız, silebilmemiz için lütfen bizimle iletişime geçin.</p>
+
+<h2>11. Güvenlik</h2>
+<p>Verilerinizi korumak için, erişim kontrolleri ve veritabanımızda yalnızca kendi kayıtlarınıza erişebilmenizi sağlayan satır düzeyinde güvenlik dahil olmak üzere makul teknik ve idari tedbirler kullanırız. Hiçbir iletim veya saklama yöntemi %100 güvenli değildir, ancak bilgilerinizi korumak için çalışırız.</p>
+
+<h2>12. Affiliate (Bağlı Kuruluş) Bağlantıları</h2>
+<p>Uygulama, bağlı kuruluş ürün önerileri gösterebilir (örneğin bahçe malzemeleri). Böyle bir bağlantıya dokunup satın alma yaparsanız, size ek bir maliyet olmaksızın komisyon kazanabiliriz. Bu satın almalar, kendi gizlilik politikaları ve koşulları olan <strong>harici üçüncü taraf web sitelerinde</strong> gerçekleşir; bu sitelerden sorumlu değiliz.</p>
+
+<h2>13. Yapay Zekâ Sorumluluk Reddi</h2>
+<div class="callout">
+  <p><strong>VeggieDoc yalnızca bilgilendirme amaçlı yapay zekâ üretimi öneriler sunar ve profesyonel bir ziraat mühendisinin veya bitki sağlığı uzmanının yerine GEÇMEZ.</strong> Kimyasal ürünler dahil tedavi önerileri kendi sorumluluğunuzda kullanılır. Her zaman ürün etiketlerini okuyun ve tüm güvenlik ve toksisite uyarılarına uyun. Doğruluk konusunda hiçbir garanti vermiyoruz.</p>
+</div>
+
+<h2>14. Bu Politikadaki Değişiklikler</h2>
+<p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Güncellediğimizde, yukarıdaki "Son güncelleme" tarihini değiştirir ve uygun olduğunda Uygulama içinde sizi bilgilendiririz.</p>
+
+<h2>15. İletişim</h2>
+<div class="contact">
+  Bu politika veya verileriniz hakkında sorularınız mı var? Bize ulaşın:<br>
+  <strong>CS Analytics LLC</strong><br>
+  <a href="mailto:veggiedoc@csanalytics.app">veggiedoc@csanalytics.app</a>
+</div>
+
+<footer>
+  © 2026 CS Analytics LLC. VeggieDoc. Tüm hakları saklıdır.
+</footer>
+</div>
+</body>
+</html>
